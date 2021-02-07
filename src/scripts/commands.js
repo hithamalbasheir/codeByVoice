@@ -17,8 +17,8 @@ export default function (addToList, language, endFunction) {
    if (language.locale === 'ar-SA') {
     return [
       {
-        command: '(*)دالة',
-        callback: (name) => getCallback(mappings.func(name?.trim() || 'bubblegum'), 'دالة'),
+        command: '(*)داله',
+        callback: (name) => getCallback(mappings.func(name?.trim() || 'bubblegum'), 'داله'),
         commandText: mappings.func('bubblegum'),
          description: 'انشاء دالة جديدة'
        }

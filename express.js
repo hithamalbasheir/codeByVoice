@@ -30,10 +30,10 @@ router.post('/copyPasta', (request, response) => {
       break;
     case('shift right'):
       robotJS.keyTap('right','shift')
-      break
+      break;
     case('shift left'):
       robotJS.keyTap('left','shift')
-      break
+      break;
     case('step right'):
       for(var i = 0;i<5;i++){
         robotJS.keyTap('right','shift')
